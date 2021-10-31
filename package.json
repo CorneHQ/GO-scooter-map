@@ -1,0 +1,20 @@
+{
+  "name": "go-scooter-map",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.7.5",
+    "@types/node": "^16.11.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "leaflet": "^1.7.1",
+    "license-plate": "^2.0.0"
+  }
+}
